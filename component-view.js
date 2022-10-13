@@ -3,7 +3,7 @@ const client = ZoomMtgEmbedded.createClient()
 let meetingSDKElement = document.getElementById('meetingSDKElement')
 
 // setup your signature endpoint here: https://github.com/zoom/meetingsdk-sample-signature-node.js
-var signatureEndpoint = 'http://3.89.119.13:4000'
+var signatureEndpoint = 'https://zoommeetingignature.herokuapp.com'
 var sdkKey = 'gLIbzy560XRWbvtIJTFIqUbxRu1eDjhb0PKT'
 var meetingNumber = '3422411147'
 var role = 0
